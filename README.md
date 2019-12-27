@@ -9,6 +9,6 @@ InCrypt is used to encrypt or decrypt single files with a password. InCrypt uses
 Prebuilt binaries have not been created yet. You must run from the source.
 
 ## To-Do
-[] Encrypt or Decrypt Mutiple Files
+- [] Encrypt or Decrypt Mutiple Files
 
-[] Improve UI Design
+- [] Improve UI Design
