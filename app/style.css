@@ -1,0 +1,107 @@
+@import 'https://fonts.googleapis.com/css?family=Lato';
+
+:not(input):not(textarea),
+:not(input):not(textarea)::after,
+:not(input):not(textarea)::before {
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+input, button, textarea, :focus {
+    outline: none;
+}
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+  background: #DDE4E6;
+  color: #333;
+  font-family: 'Lato', sans-serif;
+}
+
+ul {
+  -webkit-app-region: drag;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ECF0F1;
+  border-bottom: 1px solid #3498DB;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  -webkit-app-region: no-drag;
+}
+
+li a:hover {
+  background-color: #3498DB;
+  color: #ECF0F1;
+  -webkit-app-region: no-drag;
+}
+
+li p {
+  padding-left: 20px;
+}
+
+#content {
+  padding: 30px;
+  color: #333;
+}
+
+#header {
+  border-bottom: 1px solid #BDC3C7;
+  margin-bottom: 15px;
+}
+
+input {
+  border: 1px solid #BDC3C7;
+  height: 30px;
+  text-indent: 7px;
+}
+
+#file-input {
+  width: 490px;
+}
+
+#password-input {
+  width: 540px;
+}
+
+button {
+  border: none;
+  /*background: #3498DB;*/
+  background: none;
+  border-bottom: 2px solid #3498DB;
+  color: #333; /*#ECF0F1;*/
+}
+
+#openf-btn {
+  height: 31px;
+  width: 36px;
+  margin-left: 5px;
+}
+
+button:hover {
+  border-bottom-color: #2980B9;
+}
+
+#encrypt-btn {
+  height: 31px;
+  width: 100px;
+  margin-left: 160px;
+}
+
+#decrypt-btn {
+  height: 31px;
+  width: 100px;
+  margin-left: 5px;
+}
